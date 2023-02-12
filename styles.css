@@ -1,0 +1,58 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+  margin: 316px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+h1 {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+#maincontainer {
+  display: flex;
+  flex: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 124px;
+}
+
+#selection {
+  background-color: white;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 64px;
+  border-radius: 12px;
+}
+
+#slidecontainer {
+  width: 100%;
+}
+
+#sketch {
+  display: flex;
+  flex: 0 1 auto;
+  background-color: white;
+  border: solid 24px;
+  width: 400px;
+  height: 400px;
+  border-radius: 12px;
+  flex-direction: column;
+}
+
+.innerPixel,
+.outerPixel {
+  display: flex;
+  flex: auto;
+}

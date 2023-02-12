@@ -16,7 +16,12 @@ h1 {
   margin-bottom: 64px;
 }
 
-#maincontainer {
+p {
+  font-size: x-large;
+  margin: 0px;
+}
+
+#mainContainer {
   display: flex;
   flex: auto;
   align-items: center;
@@ -34,9 +39,10 @@ h1 {
   gap: 12px;
   padding: 64px;
   border-radius: 12px;
+  border: solid antiquewhite 24px;
 }
 
-#slidecontainer {
+#slideContainer {
   width: 100%;
 }
 
@@ -44,7 +50,7 @@ h1 {
   display: flex;
   flex: 0 1 auto;
   background-color: white;
-  border: solid 24px;
+  border: solid antiquewhite 24px;
   width: 400px;
   height: 400px;
   border-radius: 12px;
@@ -55,4 +61,14 @@ h1 {
 .outerPixel {
   display: flex;
   flex: auto;
+}
+
+button {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  padding: 16px;
+  width: 148px;
+  font-size: large;
+  background-color: antiquewhite;
 }
